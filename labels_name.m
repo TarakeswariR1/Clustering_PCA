@@ -1,6 +1,5 @@
 function [labels] = labels_name(data, data_points, k)
-%UNTITLED10 Summary of this function goes here
-%   Detailed explanation goes here
+%Class Assignment using the output of Kmeans
 labels = zeros(size(data, 1),1);
  for i = 1:size(data, 1)
       for j = 1:k
